@@ -3,7 +3,8 @@ use handlers::keyboard::KeyPattern;
 use handlers::workspaces::modes::{AnyModeConfig, AnyModeWrap, Mode};
 use slog;
 use slog_scope;
-use wlc::{Callback, Geometry, Key, KeyState, Modifiers, Point, ResizeEdge, Output, Size, View, ViewState, WeakView};
+use wlc::{Callback, Geometry, Key, KeyState, Modifiers, Output, Point, ResizeEdge, Size, View, ViewState,
+          WeakView};
 
 /// A `Mode` that lets you pull one `View` into fullscreen operation while
 /// letting another wrapped `Mode` handle the rest
